@@ -1,16 +1,5 @@
 
-from google.adk.agents.llm_agent import Agent
-# from google.adk.agents.workflow_agents import SequentialAgent
-# from google.adk.agents.base_agent import BaseAgent
-# from google.adk.agents.invocation_context import InvocationContext
-from typing import Dict, Any, List
 import json
-
-# # Import the custom tools
-# from inventory_tool import parse_inventory_json, read_inventory_file
-
-
-# import json
 from typing import List, Dict, Any
 
 def parse_inventory_json(json_data: str) -> Dict[str, Any]:
@@ -111,45 +100,3 @@ def read_inventory_file(file_path: str) -> str:
         return f"Error: File not found at {file_path}"
     except Exception as e:
         return f"Error reading file {file_path}: {str(e)}"
-
-
-class InventoryAnalyst(Agent):
-    def __init__(self, **kwargs):
-        super().__init__(
-            name="InventoryAnalyst",
-            description="Analyzes raw inventory JSON data from a hardcoded file path to extract key insights like high-stock and low-stock items.",
-            instruction=(
-                "You are an expert inventory analyst. Your task is to analyze inventory data. "
-                "First, use the 'read_inventory_file' tool to load the JSON content from the file located at 'sample_shopify_data.json'. "
-                "Then, use the 'parse_inventory_json' tool to process the loaded JSON data. "
-                "Identify high-stock and low-stock items based on the thresholds defined in the tool. "
-                "Summarize the key findings and save them to the session state under the key 'inventory_insights'."
-                "Classifies inventory SKUs as Healthy, At-Risk, or Critical."
-            ),
-            tools=[read_inventory_file, parse_inventory_json],
-            model="gemini-2.5-flash", # Or your preferred Gemini model
-            output_key="inventory_insights",
-            **kwargs
-        )
-
-# Example of how the Orchestrator might use this agent (for context, not part of this agent's direct implementation)
-# In a full multi-agent system, this would be part of the OrchestratorAgent
-# class StrategyOrchestrator(SequentialAgent):
-#     def __init__(self, **kwargs):
-#         super().__init__(
-#             name="StrategyOrchestrator",
-#             description="Orchestrates the inventory strategy generation process.",
-#             sub_agents=[
-#                 InventoryAnalyst(),
-#                 # MarketResearcher(), # Placeholder for future agents
-#                 # StrategyArchitect(), # Placeholder for future agents
-#             ],
-#             **kwargs
-#         )
-
-# This is the root agent that ADK will run. For a multi-agent system, this would typically be the orchestrator.
-# For demonstrating the InventoryAnalyst, we can make it the root for now.
-root_agent = InventoryAnalyst()
-
-# To run this agent, you would typically use `adk run` from the command line.
-# The agent's instruction now hardcodes the file path, so no input is needed from the command line for the path.
