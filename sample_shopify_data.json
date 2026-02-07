@@ -1,0 +1,277 @@
+{
+  "shop": {
+    "id": 12345678901,
+    "name": "Celtic Treasures Dublin",
+    "email": "info@celtictreasures.ie",
+    "domain": "celtictreasures.myshopify.com",
+    "currency": "EUR",
+    "timezone": "Europe/Dublin"
+  },
+  "locations": [
+    {
+      "id": 1001,
+      "name": "Main Store - Dublin",
+      "address1": "45 Grafton Street",
+      "city": "Dublin",
+      "country": "Ireland",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": 7001001001,
+      "title": "Aran Knit Scarf - Forest Green",
+      "vendor": "Aran Woollen Mills",
+      "product_type": "Accessories",
+      "created_at": "2024-06-15T09:00:00+00:00",
+      "status": "active",
+      "tags": "aran, knitwear, scarf, winter",
+      "variants": [{
+        "id": 40001001001,
+        "sku": "ARAN-SCF-GRN",
+        "price": "45.00",
+        "cost": "18.00",
+        "inventory_quantity": 28,
+        "inventory_item_id": 50001001001
+      }]
+    },
+    {
+      "id": 7001001002,
+      "title": "Matching Beanie Hat - Forest Green",
+      "vendor": "Aran Woollen Mills",
+      "product_type": "Accessories",
+      "created_at": "2024-06-22T09:00:00+00:00",
+      "status": "active",
+      "tags": "aran, knitwear, hat, winter",
+      "variants": [{
+        "id": 40001001002,
+        "sku": "ARAN-HAT-GRN",
+        "price": "32.00",
+        "cost": "12.50",
+        "inventory_quantity": 35,
+        "inventory_item_id": 50001001002
+      }]
+    },
+    {
+      "id": 7001001003,
+      "title": "Handmade Pottery Mug - Ocean Blue",
+      "vendor": "Connemara Pottery",
+      "product_type": "Homeware",
+      "created_at": "2024-07-10T10:00:00+00:00",
+      "status": "active",
+      "tags": "pottery, mug, homeware",
+      "variants": [{
+        "id": 40001001003,
+        "sku": "POT-MUG-BLU",
+        "price": "24.00",
+        "cost": "9.50",
+        "inventory_quantity": 42,
+        "inventory_item_id": 50001001003
+      }]
+    },
+    {
+      "id": 7001001004,
+      "title": "Irish Breakfast Tea - 100g",
+      "vendor": "Bewley's",
+      "product_type": "Food & Beverage",
+      "created_at": "2024-08-05T08:00:00+00:00",
+      "status": "active",
+      "tags": "tea, irish, beverage",
+      "variants": [{
+        "id": 40001001004,
+        "sku": "TEA-IRB-100",
+        "price": "12.00",
+        "cost": "4.80",
+        "inventory_quantity": 85,
+        "inventory_item_id": 50001001004
+      }]
+    },
+    {
+      "id": 7001001005,
+      "title": "Celtic Silver Pendant - Trinity Knot",
+      "vendor": "Solvar Jewellery",
+      "product_type": "Jewellery",
+      "created_at": "2024-05-01T11:00:00+00:00",
+      "status": "active",
+      "tags": "jewellery, silver, celtic",
+      "variants": [{
+        "id": 40001001005,
+        "sku": "JWL-PND-CLT",
+        "price": "65.00",
+        "cost": "26.00",
+        "inventory_quantity": 18,
+        "inventory_item_id": 50001001005
+      }]
+    },
+    {
+      "id": 7001001006,
+      "title": "Sterling Silver Chain - 18 inch",
+      "vendor": "Solvar Jewellery",
+      "product_type": "Jewellery",
+      "created_at": "2024-07-20T09:00:00+00:00",
+      "status": "active",
+      "tags": "jewellery, silver, chain",
+      "variants": [{
+        "id": 40001001006,
+        "sku": "JWL-CHN-STR",
+        "price": "28.00",
+        "cost": "11.00",
+        "inventory_quantity": 24,
+        "inventory_item_id": 50001001006
+      }]
+    },
+    {
+      "id": 7001001007,
+      "title": "Woollen Winter Scarf - Burgundy",
+      "vendor": "Foxford Woollen Mills",
+      "product_type": "Accessories",
+      "created_at": "2024-05-25T10:00:00+00:00",
+      "status": "active",
+      "tags": "scarf, wool, winter",
+      "variants": [{
+        "id": 40001001007,
+        "sku": "SKU-31209",
+        "price": "45.00",
+        "cost": "18.00",
+        "inventory_quantity": 48,
+        "inventory_item_id": 50001001007
+      }]
+    },
+    {
+      "id": 7001001008,
+      "title": "Claddagh Ring - Sterling Silver",
+      "vendor": "Solvar Jewellery",
+      "product_type": "Jewellery",
+      "created_at": "2024-04-10T09:00:00+00:00",
+      "status": "active",
+      "tags": "jewellery, ring, claddagh",
+      "variants": [
+        { "id": 40001001008, "sku": "JWL-CLR-S6", "price": "55.00", "cost": "22.00", "inventory_quantity": 8, "option1": "Size 6" },
+        { "id": 40001001009, "sku": "JWL-CLR-S7", "price": "55.00", "cost": "22.00", "inventory_quantity": 5, "option1": "Size 7" },
+        { "id": 40001001010, "sku": "JWL-CLR-S8", "price": "55.00", "cost": "22.00", "inventory_quantity": 3, "option1": "Size 8" }
+      ]
+    },
+    {
+      "id": 7001001009,
+      "title": "Irish Whiskey Fudge - 200g",
+      "vendor": "Butlers Chocolates",
+      "product_type": "Food & Beverage",
+      "created_at": "2024-09-01T08:00:00+00:00",
+      "status": "active",
+      "tags": "food, fudge, whiskey",
+      "variants": [{
+        "id": 40001001011,
+        "sku": "FOOD-FDG-WHK",
+        "price": "8.50",
+        "cost": "3.40",
+        "inventory_quantity": 120,
+        "inventory_item_id": 50001001011
+      }]
+    },
+    {
+      "id": 7001001010,
+      "title": "Tweed Flat Cap - Grey",
+      "vendor": "Hanna Hats",
+      "product_type": "Accessories",
+      "created_at": "2024-03-15T10:00:00+00:00",
+      "status": "active",
+      "tags": "hat, cap, tweed",
+      "variants": [
+        { "id": 40001001012, "sku": "ACC-CAP-GRY-S", "price": "42.00", "cost": "16.80", "inventory_quantity": 12, "option1": "Small" },
+        { "id": 40001001013, "sku": "ACC-CAP-GRY-M", "price": "42.00", "cost": "16.80", "inventory_quantity": 6, "option1": "Medium" },
+        { "id": 40001001014, "sku": "ACC-CAP-GRY-L", "price": "42.00", "cost": "16.80", "inventory_quantity": 4, "option1": "Large" }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 6001001001, "name": "#1001", "created_at": "2024-11-01T14:30:00+00:00", "currency": "EUR",
+      "total_price": "77.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [
+        { "sku": "ARAN-SCF-GRN", "quantity": 1, "price": "45.00" },
+        { "sku": "ARAN-HAT-GRN", "quantity": 1, "price": "32.00" }
+      ]
+    },
+    {
+      "id": 6001001002, "name": "#1002", "created_at": "2024-11-03T11:15:00+00:00", "currency": "EUR",
+      "total_price": "36.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [
+        { "sku": "POT-MUG-BLU", "quantity": 1, "price": "24.00" },
+        { "sku": "TEA-IRB-100", "quantity": 1, "price": "12.00" }
+      ]
+    },
+    {
+      "id": 6001001003, "name": "#1003", "created_at": "2024-11-05T16:45:00+00:00", "currency": "EUR",
+      "total_price": "55.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [{ "sku": "JWL-CLR-S6", "quantity": 1, "price": "55.00" }]
+    },
+    {
+      "id": 6001001004, "name": "#1004", "created_at": "2024-11-08T10:00:00+00:00", "currency": "EUR",
+      "total_price": "24.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [{ "sku": "TEA-IRB-100", "quantity": 2, "price": "12.00" }]
+    },
+    {
+      "id": 6001001005, "name": "#1005", "created_at": "2024-11-10T15:20:00+00:00", "currency": "EUR",
+      "total_price": "17.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [{ "sku": "FOOD-FDG-WHK", "quantity": 2, "price": "8.50" }]
+    },
+    {
+      "id": 6001001006, "name": "#1006", "created_at": "2024-11-12T12:30:00+00:00", "currency": "EUR",
+      "total_price": "45.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [{ "sku": "ARAN-SCF-GRN", "quantity": 1, "price": "45.00" }]
+    },
+    {
+      "id": 6001001007, "name": "#1007", "created_at": "2024-11-15T09:45:00+00:00", "currency": "EUR",
+      "total_price": "93.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [
+        { "sku": "JWL-PND-CLT", "quantity": 1, "price": "65.00" },
+        { "sku": "JWL-CHN-STR", "quantity": 1, "price": "28.00" }
+      ]
+    },
+    {
+      "id": 6001001008, "name": "#1008", "created_at": "2024-11-18T14:00:00+00:00", "currency": "EUR",
+      "total_price": "42.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [{ "sku": "ACC-CAP-GRY-S", "quantity": 1, "price": "42.00" }]
+    },
+    {
+      "id": 6001001009, "name": "#1009", "created_at": "2024-11-20T11:30:00+00:00", "currency": "EUR",
+      "total_price": "36.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [{ "sku": "TEA-IRB-100", "quantity": 3, "price": "12.00" }]
+    },
+    {
+      "id": 6001001010, "name": "#1010", "created_at": "2024-11-22T16:15:00+00:00", "currency": "EUR",
+      "total_price": "25.50", "financial_status": "paid", "source_name": "pos",
+      "line_items": [{ "sku": "FOOD-FDG-WHK", "quantity": 3, "price": "8.50" }]
+    },
+    {
+      "id": 6001001011, "name": "#1011", "created_at": "2024-11-25T13:00:00+00:00", "currency": "EUR",
+      "total_price": "77.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [
+        { "sku": "ARAN-SCF-GRN", "quantity": 1, "price": "45.00" },
+        { "sku": "ARAN-HAT-GRN", "quantity": 1, "price": "32.00" }
+      ]
+    },
+    {
+      "id": 6001001012, "name": "#1012", "created_at": "2024-11-28T10:30:00+00:00", "currency": "EUR",
+      "total_price": "55.00", "financial_status": "paid", "source_name": "pos",
+      "line_items": [{ "sku": "JWL-CLR-S7", "quantity": 1, "price": "55.00" }]
+    },
+    {
+      "id": 6001001013, "name": "#1013", "created_at": "2024-11-29T15:45:00+00:00", "currency": "EUR",
+      "total_price": "20.50", "financial_status": "paid", "source_name": "pos",
+      "line_items": [
+        { "sku": "TEA-IRB-100", "quantity": 1, "price": "12.00" },
+        { "sku": "FOOD-FDG-WHK", "quantity": 1, "price": "8.50" }
+      ]
+    }
+  ],
+  "suppliers": [
+    { "id": "SUP001", "name": "Aran Woollen Mills", "email": "orders@aranwools.ie", "lead_time_days": 7 },
+    { "id": "SUP002", "name": "Connemara Pottery", "email": "wholesale@connemarapottery.ie", "lead_time_days": 14 },
+    { "id": "SUP003", "name": "Bewley's", "email": "trade@bewleys.ie", "lead_time_days": 3 },
+    { "id": "SUP004", "name": "Solvar Jewellery", "email": "orders@solvar.ie", "lead_time_days": 10 },
+    { "id": "SUP005", "name": "Foxford Woollen Mills", "email": "trade@foxford.ie", "lead_time_days": 7 },
+    { "id": "SUP006", "name": "Butlers Chocolates", "email": "wholesale@butlers.ie", "lead_time_days": 5 },
+    { "id": "SUP007", "name": "Hanna Hats", "email": "orders@hannahats.ie", "lead_time_days": 10 }
+  ]
+}
